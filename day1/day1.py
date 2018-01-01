@@ -17,13 +17,13 @@ def sum_matching_digits(digits):
 
     return total
 
-"""
+
 # tests
-print(sum_matching_digits([1, 1, 2, 2]))
-print(sum_matching_digits([1, 1, 1, 1]))
-print(sum_matching_digits([1, 2, 3, 4]))
-print(sum_matching_digits([9, 1, 2, 1, 2, 1, 2, 9]))
-"""
+print(sum_matching_digits([1, 1, 2, 2])) # 3
+print(sum_matching_digits([1, 1, 1, 1])) # 4
+print(sum_matching_digits([1, 2, 3, 4])) # 0
+print(sum_matching_digits([9, 1, 2, 1, 2, 1, 2, 9])) # 9
+
 
 INPUT_FILE_PATH = "input.txt"
 
